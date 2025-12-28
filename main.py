@@ -9,16 +9,16 @@ import os
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from routes.stt import router as stt_router
-from routes.feedback import router as feedback_router
-from routes.word_bomb import router as word_bomb_router
-from routes.deep_dive import router as deep_dive_router
-from routes import session_complete
-from routes import rapid_fire
-from routes import action_plan
-from routes import skill_profile
+from backend.routes.stt import router as stt_router
+from backend.routes.feedback import router as feedback_router
+from backend.routes.word_bomb import router as word_bomb_router
+from backend.routes.deep_dive import router as deep_dive_router
+from backend.routes import session_complete
+from backend.routes import rapid_fire
+from backend.routes import action_plan
+from backend.routes import skill_profile
 # Opik client disabled for now (package not installed)
-# from utils.opik_client import init_opik
+# from backend.utils.opik_client import init_opik
 # opik_client = init_opik()
 
 app = FastAPI(
