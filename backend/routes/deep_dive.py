@@ -4,8 +4,8 @@ from pydantic import BaseModel
 from typing import Optional, List
 from langchain_openai import ChatOpenAI
 
-from chains.deep_dive_start import generate_deep_dive_start
-from chains.deep_dive_evaluate import generate_deep_dive_evaluation
+from backend.chains.deep_dive_start import generate_deep_dive_start
+from backend.chains.deep_dive_evaluate import generate_deep_dive_evaluation
 
 
 router = APIRouter()

@@ -2,8 +2,8 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import List
 
-from chains.word_bomb_feedback import generate_word_bomb_feedback
-from chains.word_bomb_words import generate_word_bomb_words
+from backend.chains.word_bomb_feedback import generate_word_bomb_feedback
+from backend.chains.word_bomb_words import generate_word_bomb_words
 
 
 router = APIRouter()

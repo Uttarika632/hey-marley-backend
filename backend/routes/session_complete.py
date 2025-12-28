@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from chains.full_session_evaluator import evaluate_full_session
+from backend.chains.full_session_evaluator import evaluate_full_session
 
 
 router = APIRouter()

@@ -2,8 +2,8 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import Optional
 
-from chains.action_plan import generate_action_plan
-from chains.action_plan_v2 import generate_personalized_action_plan
+from backend.chains.action_plan import generate_action_plan
+from backend.chains.action_plan_v2 import generate_personalized_action_plan
 
 
 router = APIRouter()

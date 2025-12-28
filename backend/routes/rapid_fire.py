@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import List
 
-from chains.rapid_fire_prompts import generate_rapid_fire_prompts
+from backend.chains.rapid_fire_prompts import generate_rapid_fire_prompts
 
 
 class RapidFireProfile(BaseModel):

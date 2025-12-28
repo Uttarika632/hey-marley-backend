@@ -2,7 +2,7 @@ from fastapi import APIRouter
 from pydantic import BaseModel
 from typing import Optional
 
-from chains.skill_profile import generate_skill_profile
+from backend.chains.skill_profile import generate_skill_profile
 
 
 router = APIRouter()

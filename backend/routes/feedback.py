@@ -1,5 +1,5 @@
 from fastapi import APIRouter
-from chains.rapid_fire_feedback import generate_rapid_fire_feedback
+from backend.chains.rapid_fire_feedback import generate_rapid_fire_feedback
 
 
 router = APIRouter()
