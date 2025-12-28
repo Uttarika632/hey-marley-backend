@@ -1,10 +1,11 @@
 from pathlib import Path
-from dotenv import load_dotenv
+#from dotenv import load_dotenv
+import os
 
 # Load .env from project root (one level up from backend - openAI/comet API keys)
-load_dotenv(Path(__file__).parent.parent / ".env")
+#load_dotenv(Path(__file__).parent.parent / ".env")
 # Load .env from project root (backendopenAI/comet API keys)
-load_dotenv(Path(__file__).parent / ".env")
+#load_dotenv(Path(__file__).parent / ".env")
 
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
